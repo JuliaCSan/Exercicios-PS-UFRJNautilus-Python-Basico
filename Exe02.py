@@ -30,12 +30,3 @@ while True:
         print('AV2: ', lista_notas2)
         print('AV3: ', lista_notas3)
         print ('=' * 40)
-    
-
-
-    
-
-    
-    
-        
-
