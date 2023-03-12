@@ -11,15 +11,14 @@ while True:
     media = (n1 +n2 +n3)/3
 
     print('Média: ', media)
+    if media >=7:
+        print('Situação: APROVADO')
+    else: print('Situação: REPROVADO')
 
     boletim.append([nome, ['NOTA 1:'], n1, ['NOTA 2: ', n2], ['NOTA 3 :', n3], media])
     lista_notas1.append(n1)
     lista_notas2.append(n2)
     lista_notas3.append(n3)
-
-    if media >=7:
-        print('Situação: APROVADO')
-    else: print('Situação: REPROVADO')
 
     proximo = str(input('\nDeseja cadastrar o próximo aluno? [S/N]'))
     if proximo in 'Nn':
