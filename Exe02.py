@@ -2,8 +2,6 @@ boletim = list()
 lista_notas1 = list()
 lista_notas2 = list()
 lista_notas3 = list()
-situacaoap = list()
-situacaorp = list()
 
 while True:
     nome = str(input('\nInsira o nome do aluno: '))
